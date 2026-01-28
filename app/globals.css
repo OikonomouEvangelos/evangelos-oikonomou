@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Το νέο σου βασικό χρώμα */
+  --color-cream: #F2F0EF;
+  /* Καθαρό μαύρο */
+  --color-dark: #000000; 
+}
+
+:root {
+  --background: var(--color-cream);
+  --foreground: var(--color-dark);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
